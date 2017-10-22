@@ -32,7 +32,7 @@
         
         <nav>
             <div class="brand-logo">
-                <img src="./images/logo.png">
+                <img src="images/logo.png">
             </div>
             <div class="nav">
                 <ul>
@@ -49,15 +49,21 @@
                 Welcome to Blue Hacks 2018.
                 Please input your idea:
             </p>
-            <button type="button" onclick="alert('Signup')"> Click to Sign up </button>
+            <button type="button" href="#signup"> Click to Sign up </button>
         </div>
 
+        <hr>
+
         <div id="about">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
+
+        <hr>
 
         <div id="history">
             <div class="info">
             <!-- Some Information -->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
 
             <div class="gallery">
@@ -65,13 +71,154 @@
             </div>
         </div>
 
+        <hr>
+
         <div id="sponsors">
-            
+            <ul id="sponsors-list">
+                <li><img src="img/sponsor1.png"></li>
+                <li><img src="img/sponsor2.png"></li>
+                <li><img src="img/sponsor3.png"></li>
+                <li><img src="img/sponsor4.png"></li>
+            </ul>
         </div>
 
-        <div id="signup">
+        <hr>
 
-        </div>    
+        <div id="signup">
+            <form action="/form-handler" method="post">
+                <label>Team Information</label>
+                <div>
+                    <label for="team-name">Team Name:<br></label>
+                    <input type="text" id="team-name" name="team-name" required>
+                </div>
+                <div>
+                    <label for="team-school">School of Team:<br></label>
+                    <input type="text" id="team-school" name="team-school" required>
+                </div>
+                <div id="members-information">
+                    <div class="member">
+                        <label>Member 1</label>
+                        <ul>
+                        <li>
+                            <label for="member1-name">Name:<br></label>
+                            <input type="text" id="member1-name">
+                        </li>
+                        <li>
+                            <label for="member1-email">Email:<br></label>
+                            <input type="email" id="member1-email">
+                        </li>
+                        <li>
+                            <label for="member1-contact">Contact Number:<br></label>
+                            <input type="tel" id="member1-contact">
+                        </li>
+                        <li>
+                            <label for="member1-dietary">Dietary Restriction:<br></label>
+                            <textarea type="text" id="member1-dietary"></textarea>
+                        </li>
+                        <li>
+                            <label for="member1-shirtsize">Shirt Size:<br></label>
+                            <input type="text" id="member1-shirtsize">
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="member">
+                        <label>Member 2</label>
+                        <ul>
+                        <li>
+                            <label for="member2-name">Name:<br></label>
+                            <input type="text" id="member2-name">
+                        </li>
+                        <li>
+                            <label for="member2-email">Email:<br></label>
+                            <input type="email" id="member2-email">
+                        </li>
+                        <li>
+                            <label for="member2-contact">Contact Number:<br></label>
+                            <input type="tel" id="member2-contact">
+                        </li>
+                        <li>
+                            <label for="member2-dietary">Dietary Restriction:<br></label>
+                            <textarea type="text" id="member2-dietary"></textarea>
+                        </li>
+                        <li>
+                            <label for="member2-shirtsize">Shirt Size:<br></label>
+                            <input type="text" id="member2-shirtsize">
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="member2">
+                        <label>Member 3</label>
+                        <ul>
+                        <li>
+                            <label for="member3-name">Name:<br></label>
+                            <input type="text" id="member3-name">
+                        </li>
+                        <li>
+                            <label for="member3-email">Email:<br></label>
+                            <input type="email" id="member3-email">
+                        </li>
+                        <li>
+                            <label for="member3-contact">Contact Number:<br></label>
+                            <input type="tel" id="member3-contact">
+                        </li>
+                        <li>
+                            <label for="member3-dietary">Dietary Restriction:<br></label>
+                            <textarea type="text" id="member3-dietary"></textarea>
+                        </li>
+                        <li>
+                            <label for="member3-shirtsize">Shirt Size:<br></label>
+                            <input type="text" id="member3-shirtsize">
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="member2">
+                        <label>Member 4 (Optional)</label>
+                        <ul>
+                        <li>
+                            <label for="member4-name">Name:<br></label>
+                            <input type="text" id="member4-name">
+                        </li>
+                        <li>
+                            <label for="member4-email">Email:<br></label>
+                            <input type="email" id="member4-email">
+                        </li>
+                        <li>
+                            <label for="member4-contact">Contact Number:<br></label>
+                            <input type="tel" id="member4-contact">
+                        </li>
+                        <li>
+                            <label for="member4-dietary">Dietary Restriction:<br></label>
+                            <textarea type="text" id="member4-dietary"></textarea>
+                        </li>
+                        <li>
+                            <label for="member4-shirtsize">Shirt Size:<br></label>
+                            <input type="text" id="member4-shirtsize">
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="extra">
+                    <label for="point-person">Point Person:<br></label>
+                    <input type="text" id="point-person" name="point-person" required>
+                </div>
+                <div>
+                    <label for="where-hear">From where did you hear about Bluehacks?<br></label>
+                    <textarea type="text" id="where-hear"></textarea>
+                </div>
+                <div>
+                    <label for="why-join">Why do you want to join Blue Hacks?<br></label>
+                    <textarea type="text" id="why-join"></textarea>
+                </div>
+                <div>
+                    <label for="what-expect">What do you expect from BlueHacks this year?<br></label>
+                    <textarea type="text" id="what-expect"></textarea>
+                </div>
+                <div>
+                    <label for="other-concerns">Other Concerns:<br></label>
+                    <textarea type="text" id="other-concerns"></textarea>
+                </div>
+            </form>
+        </div>
     </div>
 
     <!-- jQuery -->
